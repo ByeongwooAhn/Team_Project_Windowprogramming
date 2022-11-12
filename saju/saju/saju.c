@@ -288,73 +288,73 @@ void main(void)
 
 	if (d_first == 1 || d_first == 6)
 	{
-		if ((hour == 23 && 30 <= minute <= 59) || (hour == 24 && 0 <= minute <= 59) || (hour == 0 && 0 <= minute <= 59) || (hour == 1 && 0 <= minute <= 29))
+		if ((hour == 23 && (30 <= minute && minute <= 59)) || (hour == 24 && (0 <= minute && minute <= 59)) || (hour == 0 && (0 <= minute && minute <= 59)) || (hour == 1 && (0 <= minute && minute <= 29)))
 		{
 			printf("%c%c", chun[0], chun[1]);
 			printf("%c%c시", gan[0], gan[1]);
 		}
 
-		if ((hour == 1 && 30 <= minute <= 59) || (hour == 2 && 0 <= minute <= 59) || (hour == 3 && 0 <= minute <= 29))
+		if ((hour == 1 && (30 <= minute && minute <= 59)) || (hour == 2 && (0 <= minute && minute <= 59)) || (hour == 3 && (0 <= minute && minute <= 29)))
 		{
 			printf("%c%c", chun[2], chun[3]);
 			printf("%c%c시", gan[2], gan[3]);
 		}
 
-		if ((hour == 3 && 30 <= minute <= 59) || (hour == 4 && 0 <= minute <= 59) || (hour == 5 && 0 <= minute <= 29))
+		if ((hour == 3 && (30 <= minute && minute <= 59)) || (hour == 4 && (0 <= minute && minute <= 59)) || (hour == 5 && (0 <= minute && minute <= 29)))
 		{
 			printf("%c%c", chun[4], chun[5]);
 			printf("%c%c시", gan[4], gan[5]);
 		}
 
-		if ((hour == 5 && 30 <= minute <= 59) || (hour == 6 && 0 <= minute <= 59) || (hour == 7 && 0 <= minute <= 29))
+		if ((hour == 5 && (30 <= minute && minute <= 59)) || (hour == 6 && (0 <= minute && minute <= 59)) || (hour == 7 && (0 <= minute && minute <= 29)))
 		{
 			printf("%c%c", chun[6], chun[7]);
 			printf("%c%c시", gan[6], gan[7]);
 		}
 
-		if ((hour == 7 && 30 <= minute <= 59) || (hour == 8 && 0 <= minute <= 59) || (hour == 9 && 0 <= minute <= 29))
+		if ((hour == 7 && (30 <= minute && minute <= 59)) || (hour == 8 && (0 <= minute && minute <= 59)) || (hour == 9 && (0 <= minute && minute <= 29)))
 		{
 			printf("%c%c", chun[8], chun[9]);
 			printf("%c%c시", gan[8], gan[9]);
 		}
 
-		if ((hour == 9 && 30 <= minute <= 59) || (hour == 10 && 0 <= minute <= 59) || (hour == 11 && 0 <= minute <= 29))
+		if ((hour == 9 && (30 <= minute && minute <= 59)) || (hour == 10 && (0 <= minute && minute <= 59)) || (hour == 11 && (0 <= minute && minute <= 29)))
 		{
 			printf("%c%c", chun[10], chun[11]);
 			printf("%c%c시", gan[10], gan[11]);
 		}
 
-		if ((hour == 11 && 30 <= minute <= 59) || (hour == 12 && 0 <= minute <= 59) || (hour == 13 && 0 <= minute <= 29))
+		if ((hour == 11 && (30 <= minute && minute <= 59)) || (hour == 12 && (0 <= minute && minute <= 59)) || (hour == 13 && (0 <= minute && minute <= 29)))
 		{
 			printf("%c%c", chun[12], chun[13]);
 			printf("%c%c시", gan[12], gan[13]);
 		}
 
-		if ((hour == 13 && 30 <= minute <= 59) || (hour == 14 && 0 <= minute <= 59) || (hour == 15 && 0 <= minute <= 29))
+		if ((hour == 13 && (30 <= minute && minute <= 59)) || (hour == 14 && (0 <= minute && minute <= 59)) || (hour == 15 && (0 <= minute && minute <= 29)))
 		{
 			printf("%c%c", chun[14], chun[15]);
 			printf("%c%c시", gan[14], gan[15]);
 		}
 
-		if ((hour == 15 && 30 <= minute <= 59) || (hour == 16 && 0 <= minute <= 59) || (hour == 17 && 0 <= minute <= 29))
+		if ((hour == 15 && (30 <= minute && minute <= 59)) || (hour == 16 && (0 <= minute && minute <= 59)) || (hour == 17 && (0 <= minute && minute <= 29)))
 		{
 			printf("%c%c", chun[16], chun[17]);
 			printf("%c%c시", gan[16], gan[17]);
 		}
 
-		if ((hour == 17 && 30 <= minute <= 59) || (hour == 18 && 0 <= minute <= 59) || (hour == 19 && 0 <= minute <= 29))
+		if ((hour == 17 && (30 <= minute && minute <= 59)) || (hour == 18 && (0 <= minute && minute <= 59)) || (hour == 19 && (0 <= minute && minute <= 29)))
 		{
 			printf("%c%c", chun[18], chun[19]);
 			printf("%c%c시", gan[18], gan[19]);
 		}
 
-		if ((hour == 19 && 30 <= minute <= 59) || (hour == 20 && 0 <= minute <= 59) || (hour == 21 && 0 <= minute <= 29))
+		if ((hour == 19 && (30 <= minute && minute <= 59)) || (hour == 20 && (0 <= minute && minute <= 59)) || (hour == 21 && (0 <= minute && minute <= 29)))
 		{
 			printf("%c%c", chun[0], chun[1]);
 			printf("%c%c시", gan[20], gan[21]);
 		}
 
-		if ((hour == 21 && 30 <= minute <= 59) || (hour == 22 && 0 <= minute <= 59) || (hour == 23 && 0 <= minute <= 29))
+		if ((hour == 21 && (30 <= minute && minute <= 59)) || (hour == 22 && (0 <= minute && minute <= 59)) || (hour == 23 && (0 <= minute && minute <= 29)))
 		{
 			printf("%c%c", chun[2], chun[3]);
 			printf("%c%c시", gan[22], gan[23]);
@@ -363,73 +363,73 @@ void main(void)
 
 	if (d_first == 2 || d_first == 7)
 	{
-		if ((hour == 23 && 30 <= minute <= 59) || (hour == 24 && 0 <= minute <= 59) || (hour == 0 && 0 <= minute <= 59) || (hour == 1 && 0 <= minute <= 29))
+		if ((hour == 23 && (30 <= minute && minute <= 59)) || (hour == 24 && (0 <= minute && minute <= 59)) || (hour == 0 && (0 <= minute && minute <= 59)) || (hour == 1 && (0 <= minute && minute <= 29)))
 		{
 			printf("%c%c", chun[4], chun[5]);
 			printf("%c%c시", gan[0], gan[1]);
 		}
 
-		if ((hour == 1 && 30 <= minute <= 59) || (hour == 2 && 0 <= minute <= 59) || (hour == 3 && 0 <= minute <= 29))
+		if ((hour == 1 && (30 <= minute && minute <= 59)) || (hour == 2 && (0 <= minute && minute <= 59)) || (hour == 3 && (0 <= minute && minute <= 29)))
 		{
 			printf("%c%c", chun[6], chun[7]);
 			printf("%c%c시", gan[2], gan[3]);
 		}
 
-		if ((hour == 3 && 30 <= minute <= 59) || (hour == 4 && 0 <= minute <= 59) || (hour == 5 && 0 <= minute <= 29))
+		if ((hour == 3 && (30 <= minute && minute <= 59)) || (hour == 4 && (0 <= minute && minute <= 59)) || (hour == 5 && (0 <= minute && minute <= 29)))
 		{
 			printf("%c%c", chun[8], chun[9]);
 			printf("%c%c시", gan[4], gan[5]);
 		}
 
-		if ((hour == 5 && 30 <= minute <= 59) || (hour == 6 && 0 <= minute <= 59) || (hour == 7 && 0 <= minute <= 29))
+		if ((hour == 5 && (30 <= minute && minute <= 59)) || (hour == 6 && (0 <= minute && minute <= 59)) || (hour == 7 && (0 <= minute && minute <= 29)))
 		{
 			printf("%c%c", chun[10], chun[11]);
 			printf("%c%c시", gan[6], gan[7]);
 		}
 
-		if ((hour == 7 && 30 <= minute <= 59) || (hour == 8 && 0 <= minute <= 59) || (hour == 9 && 0 <= minute <= 29))
+		if ((hour == 7 && (30 <= minute && minute <= 59)) || (hour == 8 && (0 <= minute && minute <= 59)) || (hour == 9 && (0 <= minute && minute <= 29)))
 		{
 			printf("%c%c", chun[12], chun[13]);
 			printf("%c%c시", gan[8], gan[9]);
 		}
 
-		if ((hour == 9 && 30 <= minute <= 59) || (hour == 10 && 0 <= minute <= 59) || (hour == 11 && 0 <= minute <= 29))
+		if ((hour == 9 && (30 <= minute && minute <= 59)) || (hour == 10 && (0 <= minute && minute <= 59)) || (hour == 11 && (0 <= minute && minute <= 29)))
 		{
 			printf("%c%c", chun[14], chun[15]);
 			printf("%c%c시", gan[10], gan[11]);
 		}
 
-		if ((hour == 11 && 30 <= minute <= 59) || (hour == 12 && 0 <= minute <= 59) || (hour == 13 && 0 <= minute <= 29))
+		if ((hour == 11 && (30 <= minute && minute <= 59)) || (hour == 12 && (0 <= minute && minute <= 59)) || (hour == 13 && (0 <= minute && minute <= 29)))
 		{
 			printf("%c%c", chun[16], chun[17]);
 			printf("%c%c시", gan[12], gan[13]);
 		}
 
-		if ((hour == 13 && 30 <= minute <= 59) || (hour == 14 && 0 <= minute <= 59) || (hour == 15 && 0 <= minute <= 29))
+		if ((hour == 13 && (30 <= minute && minute <= 59)) || (hour == 14 && (0 <= minute && minute <= 59)) || (hour == 15 && (0 <= minute && minute <= 29)))
 		{
 			printf("%c%c", chun[18], chun[19]);
 			printf("%c%c시", gan[14], gan[15]);
 		}
 
-		if ((hour == 15 && 30 <= minute <= 59) || (hour == 16 && 0 <= minute <= 59) || (hour == 17 && 0 <= minute <= 29))
+		if ((hour == 15 && (30 <= minute && minute <= 59)) || (hour == 16 && (0 <= minute && minute <= 59)) || (hour == 17 && (0 <= minute && minute <= 29)))
 		{
 			printf("%c%c", chun[0], chun[1]);
 			printf("%c%c시", gan[16], gan[17]);
 		}
 
-		if ((hour == 17 && 30 <= minute <= 59) || (hour == 18 && 0 <= minute <= 59) || (hour == 19 && 0 <= minute <= 29))
+		if ((hour == 17 && (30 <= minute && minute <= 59)) || (hour == 18 && (0 <= minute && minute <= 59)) || (hour == 19 && (0 <= minute && minute <= 29)))
 		{
 			printf("%c%c", chun[2], chun[3]);
 			printf("%c%c시", gan[18], gan[19]);
 		}
 
-		if ((hour == 19 && 30 <= minute <= 59) || (hour == 20 && 0 <= minute <= 59) || (hour == 21 && 0 <= minute <= 29))
+		if ((hour == 19 && (30 <= minute && minute <= 59)) || (hour == 20 && (0 <= minute && minute <= 59)) || (hour == 21 && (0 <= minute && minute <= 29)))
 		{
 			printf("%c%c", chun[4], chun[5]);
 			printf("%c%c시", gan[20], gan[21]);
 		}
 
-		if ((hour == 21 && 30 <= minute <= 59) || (hour == 22 && 0 <= minute <= 59) || (hour == 23 && 0 <= minute <= 29))
+		if ((hour == 21 && (30 <= minute && minute <= 59)) || (hour == 22 && (0 <= minute && minute <= 59)) || (hour == 23 && (0 <= minute && minute <= 29)))
 		{
 			printf("%c%c", chun[6], chun[7]);
 			printf("%c%c시", gan[22], gan[23]);
@@ -438,73 +438,73 @@ void main(void)
 
 	if (d_first == 3 || d_first == 8)
 	{
-		if ((hour == 23 && 30 <= minute <= 59) || (hour == 24 && 0 <= minute <= 59) || (hour == 0 && 0 <= minute <= 59) || (hour == 1 && 0 <= minute <= 29))
+		if ((hour == 23 && (30 <= minute && minute <= 59)) || (hour == 24 && (0 <= minute && minute <= 59)) || (hour == 0 && (0 <= minute && minute <= 59)) || (hour == 1 && (0 <= minute && minute <= 29)))
 		{
 			printf("%c%c", chun[8], chun[9]);
 			printf("%c%c시", gan[0], gan[1]);
 		}
 
-		if ((hour == 1 && 30 <= minute <= 59) || (hour == 2 && 0 <= minute <= 59) || (hour == 3 && 0 <= minute <= 29))
+		if ((hour == 1 && (30 <= minute && minute <= 59)) || (hour == 2 && (0 <= minute && minute <= 59)) || (hour == 3 && (0 <= minute && minute <= 29)))
 		{
 			printf("%c%c", chun[10], chun[11]);
 			printf("%c%c시", gan[2], gan[3]);
 		}
 
-		if ((hour == 3 && 30 <= minute <= 59) || (hour == 4 && 0 <= minute <= 59) || (hour == 5 && 0 <= minute <= 29))
+		if ((hour == 3 && (30 <= minute && minute <= 59)) || (hour == 4 && (0 <= minute && minute <= 59)) || (hour == 5 && (0 <= minute && minute <= 29)))
 		{
 			printf("%c%c", chun[12], chun[13]);
 			printf("%c%c시", gan[4], gan[5]);
 		}
 
-		if ((hour == 5 && 30 <= minute <= 59) || (hour == 6 && 0 <= minute <= 59) || (hour == 7 && 0 <= minute <= 29))
+		if ((hour == 5 && (30 <= minute && minute <= 59)) || (hour == 6 && (0 <= minute && minute <= 59)) || (hour == 7 && (0 <= minute && minute <= 29)))
 		{
 			printf("%c%c", chun[14], chun[15]);
 			printf("%c%c시", gan[6], gan[7]);
 		}
 
-		if ((hour == 7 && 30 <= minute <= 59) || (hour == 8 && 0 <= minute <= 59) || (hour == 9 && 0 <= minute <= 29))
+		if ((hour == 7 && (30 <= minute && minute <= 59)) || (hour == 8 && (0 <= minute && minute <= 59)) || (hour == 9 && (0 <= minute && minute <= 29)))
 		{
 			printf("%c%c", chun[16], chun[17]);
 			printf("%c%c시", gan[8], gan[9]);
 		}
 
-		if ((hour == 9 && 30 <= minute <= 59) || (hour == 10 && 0 <= minute <= 59) || (hour == 11 && 0 <= minute <= 29))
+		if ((hour == 9 && (30 <= minute && minute <= 59)) || (hour == 10 && (0 <= minute && minute <= 59)) || (hour == 11 && (0 <= minute && minute <= 29)))
 		{
 			printf("%c%c", chun[18], chun[19]);
 			printf("%c%c시", gan[10], gan[11]);
 		}
 
-		if ((hour == 11 && 30 <= minute <= 59) || (hour == 12 && 0 <= minute <= 59) || (hour == 13 && 0 <= minute <= 29))
+		if ((hour == 11 && (30 <= minute && minute <= 59)) || (hour == 12 && (0 <= minute && minute <= 59)) || (hour == 13 && (0 <= minute && minute <= 29)))
 		{
 			printf("%c%c", chun[0], chun[1]);
 			printf("%c%c시", gan[12], gan[13]);
 		}
 
-		if ((hour == 13 && 30 <= minute <= 59) || (hour == 14 && 0 <= minute <= 59) || (hour == 15 && 0 <= minute <= 29))
+		if ((hour == 13 && (30 <= minute && minute <= 59)) || (hour == 14 && (0 <= minute && minute <= 59)) || (hour == 15 && (0 <= minute && minute <= 29)))
 		{
 			printf("%c%c", chun[2], chun[3]);
 			printf("%c%c시", gan[14], gan[15]);
 		}
 
-		if ((hour == 15 && 30 <= minute <= 59) || (hour == 16 && 0 <= minute <= 59) || (hour == 17 && 0 <= minute <= 29))
+		if ((hour == 15 && (30 <= minute && minute <= 59)) || (hour == 16 && (0 <= minute && minute <= 59)) || (hour == 17 && (0 <= minute && minute <= 29)))
 		{
 			printf("%c%c", chun[4], chun[5]);
 			printf("%c%c시", gan[16], gan[17]);
 		}
 
-		if ((hour == 17 && 30 <= minute <= 59) || (hour == 18 && 0 <= minute <= 59) || (hour == 19 && 0 <= minute <= 29))
+		if ((hour == 17 && (30 <= minute && minute <= 59)) || (hour == 18 && (0 <= minute && minute <= 59)) || (hour == 19 && (0 <= minute && minute <= 29)))
 		{
 			printf("%c%c", chun[6], chun[7]);
 			printf("%c%c시", gan[18], gan[19]);
 		}
 
-		if ((hour == 19 && 30 <= minute <= 59) || (hour == 20 && 0 <= minute <= 59) || (hour == 21 && 0 <= minute <= 29))
+		if ((hour == 19 && (30 <= minute && minute <= 59)) || (hour == 20 && (0 <= minute && minute <= 59)) || (hour == 21 && (0 <= minute && minute <= 29)))
 		{
 			printf("%c%c", chun[8], chun[9]);
 			printf("%c%c시", gan[20], gan[21]);
 		}
 
-		if ((hour == 21 && 30 <= minute <= 59) || (hour == 22 && 0 <= minute <= 59) || (hour == 23 && 0 <= minute <= 29))
+		if ((hour == 21 && (30 <= minute && minute <= 59)) || (hour == 22 && (0 <= minute && minute <= 59)) || (hour == 23 && (0 <= minute && minute <= 29)))
 		{
 			printf("%c%c", chun[10], chun[11]);
 			printf("%c%c시", gan[22], gan[23]);
@@ -513,73 +513,73 @@ void main(void)
 
 	if (d_first == 4 || d_first == 9)
 	{
-		if ((hour == 23 && 30 <= minute <= 59) || (hour == 24 && 0 <= minute <= 59) || (hour == 0 && 0 <= minute <= 59) || (hour == 1 && 0 <= minute <= 29))
+		if ((hour == 23 && (30 <= minute && minute <= 59)) || (hour == 24 && (0 <= minute && minute <= 59)) || (hour == 0 && (0 <= minute && minute <= 59)) || (hour == 1 && (0 <= minute && minute <= 29)))
 		{
 			printf("%c%c", chun[12], chun[13]);
 			printf("%c%c시", gan[0], gan[1]);
 		}
 
-		if ((hour == 1 && 30 <= minute <= 59) || (hour == 2 && 0 <= minute <= 59) || (hour == 3 && 0 <= minute <= 29))
+		if ((hour == 1 && (30 <= minute && minute <= 59)) || (hour == 2 && (0 <= minute && minute <= 59)) || (hour == 3 && (0 <= minute && minute <= 29)))
 		{
 			printf("%c%c", chun[14], chun[15]);
 			printf("%c%c시", gan[2], gan[3]);
 		}
 
-		if ((hour == 3 && 30 <= minute <= 59) || (hour == 4 && 0 <= minute <= 59) || (hour == 5 && 0 <= minute <= 29))
+		if ((hour == 3 && (30 <= minute && minute <= 59)) || (hour == 4 && (0 <= minute && minute <= 59)) || (hour == 5 && (0 <= minute && minute <= 29)))
 		{
 			printf("%c%c", chun[16], chun[17]);
 			printf("%c%c시", gan[4], gan[5]);
 		}
 
-		if ((hour == 5 && 30 <= minute <= 59) || (hour == 6 && 0 <= minute <= 59) || (hour == 7 && 0 <= minute <= 29))
+		if ((hour == 5 && (30 <= minute && minute <= 59)) || (hour == 6 && (0 <= minute && minute <= 59)) || (hour == 7 && (0 <= minute && minute <= 29)))
 		{
 			printf("%c%c", chun[18], chun[19]);
 			printf("%c%c시", gan[6], gan[7]);
 		}
 
-		if ((hour == 7 && 30 <= minute <= 59) || (hour == 8 && 0 <= minute <= 59) || (hour == 9 && 0 <= minute <= 29))
+		if ((hour == 7 && (30 <= minute && minute <= 59)) || (hour == 8 && (0 <= minute && minute <= 59)) || (hour == 9 && (0 <= minute && minute <= 29)))
 		{
 			printf("%c%c", chun[0], chun[1]);
 			printf("%c%c시", gan[8], gan[9]);
 		}
 
-		if ((hour == 9 && 30 <= minute <= 59) || (hour == 10 && 0 <= minute <= 59) || (hour == 11 && 0 <= minute <= 29))
+		if ((hour == 9 && (30 <= minute && minute <= 59)) || (hour == 10 && (0 <= minute && minute <= 59)) || (hour == 11 && (0 <= minute && minute <= 29)))
 		{
 			printf("%c%c", chun[2], chun[3]);
 			printf("%c%c시", gan[10], gan[11]);
 		}
 
-		if ((hour == 11 && 30 <= minute <= 59) || (hour == 12 && 0 <= minute <= 59) || (hour == 13 && 0 <= minute <= 29))
+		if ((hour == 11 && (30 <= minute && minute <= 59)) || (hour == 12 && (0 <= minute && minute <= 59)) || (hour == 13 && (0 <= minute && minute <= 29)))
 		{
 			printf("%c%c", chun[4], chun[5]);
 			printf("%c%c시", gan[12], gan[13]);
 		}
 
-		if ((hour == 13 && 30 <= minute <= 59) || (hour == 14 && 0 <= minute <= 59) || (hour == 15 && 0 <= minute <= 29))
+		if ((hour == 13 && (30 <= minute && minute <= 59)) || (hour == 14 && (0 <= minute && minute <= 59)) || (hour == 15 && (0 <= minute && minute <= 29)))
 		{
 			printf("%c%c", chun[6], chun[7]);
 			printf("%c%c시", gan[14], gan[15]);
 		}
 
-		if ((hour == 15 && 30 <= minute <= 59) || (hour == 16 && 0 <= minute <= 59) || (hour == 17 && 0 <= minute <= 29))
+		if ((hour == 15 && (30 <= minute && minute <= 59)) || (hour == 16 && (0 <= minute && minute <= 59)) || (hour == 17 && (0 <= minute && minute <= 29)))
 		{
 			printf("%c%c", chun[8], chun[9]);
 			printf("%c%c시", gan[16], gan[17]);
 		}
 
-		if ((hour == 17 && 30 <= minute <= 59) || (hour == 18 && 0 <= minute <= 59) || (hour == 19 && 0 <= minute <= 29))
+		if ((hour == 17 && (30 <= minute && minute <= 59)) || (hour == 18 && (0 <= minute && minute <= 59)) || (hour == 19 && (0 <= minute && minute <= 29)))
 		{
 			printf("%c%c", chun[10], chun[11]);
 			printf("%c%c시", gan[18], gan[19]);
 		}
 
-		if ((hour == 19 && 30 <= minute <= 59) || (hour == 20 && 0 <= minute <= 59) || (hour == 21 && 0 <= minute <= 29))
+		if ((hour == 19 && (30 <= minute && minute <= 59)) || (hour == 20 && (0 <= minute && minute <= 59)) || (hour == 21 && (0 <= minute && minute <= 29)))
 		{
 			printf("%c%c", chun[12], chun[13]);
 			printf("%c%c시", gan[20], gan[21]);
 		}
 
-		if ((hour == 21 && 30 <= minute <= 59) || (hour == 22 && 0 <= minute <= 59) || (hour == 23 && 0 <= minute <= 29))
+		if ((hour == 21 && (30 <= minute && minute <= 59)) || (hour == 22 && (0 <= minute && minute <= 59)) || (hour == 23 && (0 <= minute && minute <= 29)))
 		{
 			printf("%c%c", chun[14], chun[15]);
 			printf("%c%c시", gan[22], gan[23]);
@@ -588,76 +588,77 @@ void main(void)
 
 	if (d_first == 5 || d_first == 10)
 	{
-		if ((hour == 23 && 30 <= minute <= 59) || (hour == 24 && 0 <= minute <= 59) || (hour == 0 && 0 <= minute <= 59) || (hour == 1 && 0 <= minute <= 29))
+		if ((hour == 23 && (30 <= minute && minute <= 59)) || (hour == 24 && (0 <= minute && minute <= 59)) || (hour == 0 && (0 <= minute && minute <= 59)) || (hour == 1 && (0 <= minute && minute <= 29)))
 		{
 			printf("%c%c", chun[16], chun[17]);
 			printf("%c%c시", gan[0], gan[1]);
 		}
 
-		if ((hour == 1 && 30 <= minute <= 59) || (hour == 2 && 0 <= minute <= 59) || (hour == 3 && 0 <= minute <= 29))
+		if ((hour == 1 && (30 <= minute && minute <= 59)) || (hour == 2 && (0 <= minute && minute <= 59)) || (hour == 3 && (0 <= minute && minute <= 29)))
 		{
 			printf("%c%c", chun[18], chun[19]);
 			printf("%c%c시", gan[2], gan[3]);
 		}
 
-		if ((hour == 3 && 30 <= minute <= 59) || (hour == 4 && 0 <= minute <= 59) || (hour == 5 && 0 <= minute <= 29))
+		if ((hour == 3 && (30 <= minute && minute <= 59)) || (hour == 4 && (0 <= minute && minute <= 59)) || (hour == 5 && (0 <= minute && minute <= 29)))
 		{
 			printf("%c%c", chun[0], chun[1]);
 			printf("%c%c시", gan[4], gan[5]);
 		}
 
-		if ((hour == 5 && 30 <= minute <= 59) || (hour == 6 && 0 <= minute <= 59) || (hour == 7 && 0 <= minute <= 29))
+		if ((hour == 5 && (30 <= minute && minute <= 59)) || (hour == 6 && (0 <= minute && minute <= 59)) || (hour == 7 && (0 <= minute && minute <= 29)))
 		{
 			printf("%c%c", chun[2], chun[3]);
 			printf("%c%c시", gan[6], gan[7]);
 		}
 
-		if ((hour == 7 && 30 <= minute <= 59) || (hour == 8 && 0 <= minute <= 59) || (hour == 9 && 0 <= minute <= 29))
+		if ((hour == 7 && (30 <= minute && minute <= 59)) || (hour == 8 && (0 <= minute && minute <= 59)) || (hour == 9 && (0 <= minute && minute <= 29)))
 		{
 			printf("%c%c", chun[4], chun[5]);
 			printf("%c%c시", gan[8], gan[9]);
 		}
 
-		if ((hour == 9 && 30 <= minute <= 59) || (hour == 10 && 0 <= minute <= 59) || (hour == 11 && 0 <= minute <= 29))
+		if ((hour == 9 && (30 <= minute && minute <= 59)) || (hour == 10 && (0 <= minute && minute <= 59)) || (hour == 11 && (0 <= minute && minute <= 29)))
 		{
 			printf("%c%c", chun[6], chun[7]);
 			printf("%c%c시", gan[10], gan[11]);
 		}
 
-		if ((hour == 11 && 30 <= minute <= 59) || (hour == 12 && 0 <= minute <= 59) || (hour == 13 && 0 <= minute <= 29))
+		if ((hour == 11 && (30 <= minute && minute <= 59)) || (hour == 12 && (0 <= minute && minute <= 59)) || (hour == 13 && (0 <= minute && minute <= 29)))
 		{
 			printf("%c%c", chun[8], chun[9]);
 			printf("%c%c시", gan[12], gan[13]);
 		}
 
-		if ((hour == 13 && 30 <= minute <= 59) || (hour == 14 && 0 <= minute <= 59) || (hour == 15 && 0 <= minute <= 29))
+		if ((hour == 13 && (30 <= minute && minute <= 59)) || (hour == 14 && (0 <= minute && minute <= 59)) || (hour == 15 && (0 <= minute && minute <= 29)))
 		{
 			printf("%c%c", chun[10], chun[11]);
 			printf("%c%c시", gan[14], gan[15]);
 		}
 
-		if ((hour == 15 && 30 <= minute <= 59) || (hour == 16 && 0 <= minute <= 59) || (hour == 17 && 0 <= minute <= 29))
+		if ((hour == 15 && (30 <= minute && minute <= 59)) || (hour == 16 && (0 <= minute && minute <= 59)) || (hour == 17 && (0 <= minute && minute <= 29)))
 		{
 			printf("%c%c", chun[12], chun[13]);
 			printf("%c%c시", gan[16], gan[17]);
 		}
 
-		if ((hour == 17 && 30 <= minute <= 59) || (hour == 18 && 0 <= minute <= 59) || (hour == 19 && 0 <= minute <= 29))
+		if ((hour == 17 && (30 <= minute && minute <= 59)) || (hour == 18 && (0 <= minute && minute <= 59)) || (hour == 19 && (0 <= minute && minute <= 29)))
 		{
 			printf("%c%c", chun[14], chun[15]);
 			printf("%c%c시", gan[18], gan[19]);
 		}
 
-		if ((hour == 19 && 30 <= minute <= 59) || (hour == 20 && 0 <= minute <= 59) || (hour == 21 && 0 <= minute <= 29))
+		if ((hour == 19 && (30 <= minute && minute <= 59)) || (hour == 20 && (0 <= minute && minute <= 59)) || (hour == 21 && (0 <= minute && minute <= 29)))
 		{
 			printf("%c%c", chun[16], chun[17]);
 			printf("%c%c시", gan[20], gan[21]);
 		}
 
-		if ((hour == 21 && 30 <= minute <= 59) || (hour == 22 && 0 <= minute <= 59) || (hour == 23 && 0 <= minute <= 29))
+		if ((hour == 21 && (30 <= minute && minute <= 59)) || (hour == 22 && (0 <= minute && minute <= 59)) || (hour == 23 && (0 <= minute && minute <= 29)))
 		{
 			printf("%c%c", chun[18], chun[19]);
 			printf("%c%c시", gan[22], gan[23]);
 		}
 	}
+
 }
