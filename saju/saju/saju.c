@@ -7,17 +7,24 @@
 
 typedef struct result
 {
+	int year, month, day, hour, minute;
 	int y_first, y_second, m_first, m_second, d_first, d_second;
 	int c, n, i;
 }results;
 
-int	Count_saju(int year, int month, int day, int hour, int minute);
+void Count_saju(results Y, results M, results D, results H, results MIN);
 
-void main(void)
+
+int main(void)
 {
 	results Palja;
+	results A;
 
-	int year = 0, month = 0, day = 0, hour = 0, minute = 0;
+	Palja.year = 0;
+	Palja.month = 0;
+	Palja.day = 0;
+	Palja.hour = 0;
+	Palja.minute = 0;
 	int y_first = 0, y_second = 0, m_first = 0, m_second = 0, d_first = 0, d_second = 0;
 	int c = 0, n = 0, i = 0;
 	char chun[21] = "갑을병정무기경신임계";
@@ -26,23 +33,23 @@ void main(void)
 	printf("사주팔자\n\n");
 
 	printf("태어난 해를 입력하시오. ex) 2000년\n");
-	scanf("%d", &year);
+	scanf("%d", &Palja.year);
 
 	printf("\n태어난 달을 입력하시오. ex) 01월\n");
-	scanf("%d", &month);
+	scanf("%d", &Palja.month);
 
 	printf("\n태어난 날을 입력하시오. ex) 01일\n");
-	scanf("%d", &day);
+	scanf("%d", &Palja.day);
 
 	printf("\n태어난 시를 입력하시오.(24시 표기법 사용)\n");
-	scanf("%d", &hour);
+	scanf("%d", &Palja.hour);
 
 	printf("\n태어난 분을 입력하시오.\n");
-	scanf("%d", &minute);
+	scanf("%d", &Palja.minute);
 
-	Palja = Count_saju(year, month, day, hour, minute);
+	A = Count_saju(Palja);
 
-	printf("\n%d년 %d월 %d일 %d시 %d분\n", year, month, day, hour, minute);
+	printf("\n%d년 %d월 %d일 %d시 %d분\n", Palja.year, Palja.month, Palja.day, Palja.hour, Palja.minute);
 
 	switch (y_first)
 	{
@@ -649,36 +656,36 @@ void main(void)
 
 }
 
-int	Count_saju(int year, int month, int day, int hour, int minute)
+void Count_saju(results Y, results M, results D, results H, results MIN)
 {
 	results Saju;
 
-	Saju.c = year / 100;
-	Saju.n = year % 100;
+	Saju.c = Y.year / 100;
+	Saju.n = Y.year % 100;
 
-	Saju.y_first = (year + 7) % 10;
-	Saju.y_second = (year + 9) % 12;
+	Saju.y_first = (Y.year + 7) % 10;
+	Saju.y_second = (Y.year + 9) % 12;
 
-	Saju.m_first = (2 * year + month + 3) % 10;
-	Saju.m_second = (month + 1) % 12;
+	Saju.m_first = (2 * Y.year + M.month + 3) % 10;
+	Saju.m_second = (M.month + 1) % 12;
 
-	if (month == 1 || month == 2)
+	if (M.month == 1 || M.month == 2)
 	{
-		year -= 1;
+		Y.year -= 1;
 	}
 
-	if (month == 1)
+	if (M.month == 1)
 	{
-		month = 13;
+		M.month = 13;
 	}
 
-	if (month == 2)
+	if (M.month == 2)
 	{
-		month = 14;
+		M.month = 14;
 	}
 
-	Saju.d_first = (4 * Saju.c + (Saju.c / 4) + 5 * Saju.n + (Saju.n / 4) + ((3 * month) / 5) + day + 7) % 10;
-	Saju.d_second = (8 * Saju.c + (Saju.c / 4) + 5 * Saju.n + (Saju.n / 4) + 6 * month + ((3 * month) / 5) + day + 1) % 12;
+	Saju.d_first = (4 * Saju.c + (Saju.c / 4) + 5 * Saju.n + (Saju.n / 4) + ((3 * M.month) / 5) + D.day + 7) % 10;
+	Saju.d_second = (8 * Saju.c + (Saju.c / 4) + 5 * Saju.n + (Saju.n / 4) + 6 * M.month + ((3 * M.month) / 5) + D.day + 1) % 12;
 
 	return Saju;
 }
