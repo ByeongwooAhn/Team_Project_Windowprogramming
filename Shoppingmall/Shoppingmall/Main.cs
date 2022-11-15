@@ -17,9 +17,10 @@ namespace Shoppingmall
             InitializeComponent();
         }
 
-        private void Login_butto_Click(object sender, EventArgs e)
+        private void Login_button_Click(object sender, EventArgs e)
         {
-
+            Login login = new Login();
+            login.Show();
         }
     }
 }

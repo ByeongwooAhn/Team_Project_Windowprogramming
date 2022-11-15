@@ -425,7 +425,7 @@
             this.button21.TabIndex = 41;
             this.button21.Text = "로그인";
             this.button21.UseVisualStyleBackColor = false;
-            this.button21.Click += new System.EventHandler(this.button21_Click);
+            this.button21.Click += new System.EventHandler(this.Login_button_Click);
             // 
             // pictureBox1
             // 
