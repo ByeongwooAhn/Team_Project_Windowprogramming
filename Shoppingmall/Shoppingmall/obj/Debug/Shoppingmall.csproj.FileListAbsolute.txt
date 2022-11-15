@@ -1,0 +1,11 @@
+C:\Users\GD-User2\Desktop\실장파일\파일\Git\Study\Window_Programming\Shoppingmall\Shoppingmall\bin\Debug\Shoppingmall.exe.config
+C:\Users\GD-User2\Desktop\실장파일\파일\Git\Study\Window_Programming\Shoppingmall\Shoppingmall\bin\Debug\Shoppingmall.exe
+C:\Users\GD-User2\Desktop\실장파일\파일\Git\Study\Window_Programming\Shoppingmall\Shoppingmall\bin\Debug\Shoppingmall.pdb
+C:\Users\GD-User2\Desktop\실장파일\파일\Git\Study\Window_Programming\Shoppingmall\Shoppingmall\obj\Debug\Shoppingmall.csproj.AssemblyReference.cache
+C:\Users\GD-User2\Desktop\실장파일\파일\Git\Study\Window_Programming\Shoppingmall\Shoppingmall\obj\Debug\Shoppingmall.csproj.SuggestedBindingRedirects.cache
+C:\Users\GD-User2\Desktop\실장파일\파일\Git\Study\Window_Programming\Shoppingmall\Shoppingmall\obj\Debug\Shoppingmall.Form1.resources
+C:\Users\GD-User2\Desktop\실장파일\파일\Git\Study\Window_Programming\Shoppingmall\Shoppingmall\obj\Debug\Shoppingmall.Properties.Resources.resources
+C:\Users\GD-User2\Desktop\실장파일\파일\Git\Study\Window_Programming\Shoppingmall\Shoppingmall\obj\Debug\Shoppingmall.csproj.GenerateResource.cache
+C:\Users\GD-User2\Desktop\실장파일\파일\Git\Study\Window_Programming\Shoppingmall\Shoppingmall\obj\Debug\Shoppingmall.csproj.CoreCompileInputs.cache
+C:\Users\GD-User2\Desktop\실장파일\파일\Git\Study\Window_Programming\Shoppingmall\Shoppingmall\obj\Debug\Shoppingmall.exe
+C:\Users\GD-User2\Desktop\실장파일\파일\Git\Study\Window_Programming\Shoppingmall\Shoppingmall\obj\Debug\Shoppingmall.pdb
