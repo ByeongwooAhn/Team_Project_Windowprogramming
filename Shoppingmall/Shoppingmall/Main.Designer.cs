@@ -127,6 +127,7 @@
             this.Price1.TabIndex = 6;
             this.Price1.Text = "10,000 KRW";
             this.Price1.UseVisualStyleBackColor = true;
+            this.Price1.Click += new System.EventHandler(this.Price1_Click);
             // 
             // button2
             // 

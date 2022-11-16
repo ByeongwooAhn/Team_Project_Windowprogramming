@@ -179,11 +179,11 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.TextBox ID;
         private System.Windows.Forms.TextBox PW;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label Login_Fail;
+        public System.Windows.Forms.TextBox ID;
     }
 }
