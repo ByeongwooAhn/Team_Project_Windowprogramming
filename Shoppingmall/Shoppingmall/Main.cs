@@ -42,12 +42,32 @@ namespace Shoppingmall
             }
         }
 
-        private void Right_Click(object sender, MouseEventArgs e)
+        private void Login_button_MouseDown(object sender, MouseEventArgs e)
         {
-            if(e.Button == MouseButtons.Right)
+            /* if(e.Button== MouseButtons.Right)
             {
-                Login login = new Login(this);
-                login.ShowDialog();
+                DialogResult result = MessageBox.Show("로그아웃 하시겠습니까?","알림", MessageBoxButtons.YesNo);
+                if(result == DialogResult.Yes) 
+                {
+                    MessageBox.Show("로그아웃되었습니다.");
+                    Login_button.Text = "Login";
+                }
+
+            }*/
+        }
+
+        private void 내정보ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("내 정보");
+        }
+
+        private void 로그아웃ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show("로그아웃 하시겠습니까?", "알림", MessageBoxButtons.YesNo);
+            if (result == DialogResult.Yes)
+            {
+                MessageBox.Show("로그아웃되었습니다.");
+                Login_button.Text = "Login";
             }
         }
     }
