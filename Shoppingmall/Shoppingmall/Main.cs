@@ -19,8 +19,8 @@ namespace Shoppingmall
 
         private void Login_button_Click(object sender, EventArgs e)
         {
-            Login login = new Login();
-            login.Show();
+            Login login = new Login(this);
+            login.ShowDialog();
         }
     }
 }

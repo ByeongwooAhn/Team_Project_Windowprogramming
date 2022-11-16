@@ -12,9 +12,43 @@ namespace Shoppingmall
 {
     public partial class Login : Form
     {
-        public Login()
+        Main main;
+
+        public Login(Main M)
         {
             InitializeComponent();
+            main = M;
+        }
+
+        private void Login_OK()
+        {
+            string userID = ID.Text;
+            string userPW = PW.Text;
+
+            if (userID.Equals("1") && userPW.Equals("1"))
+            {
+                MessageBox.Show("로그인 되었습니다.", "로그인");
+                this.Close();
+                main.Login_button.Text = userID;
+            }
+
+            else
+            {
+                Login_Fail.Text = "아이디와 비밀번호를 확인해 주세요.";
+            }
+        }
+
+        private void Login_button_Click(object sender, EventArgs e)
+        {
+            Login_OK();
+        }
+
+        private void PW_KeyUp(object sender, KeyEventArgs e)
+        {
+            if(e.KeyCode == Keys.Enter)
+            {
+                Login_OK();
+            }
         }
     }
 }

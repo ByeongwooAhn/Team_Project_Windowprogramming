@@ -33,7 +33,7 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
+            this.Price1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
@@ -68,7 +68,7 @@
             this.panel18 = new System.Windows.Forms.Panel();
             this.panel19 = new System.Windows.Forms.Panel();
             this.panel20 = new System.Windows.Forms.Panel();
-            this.button21 = new System.Windows.Forms.Button();
+            this.Login_button = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -118,15 +118,16 @@
             this.panel5.Size = new System.Drawing.Size(168, 256);
             this.panel5.TabIndex = 5;
             // 
-            // button1
+            // Price1
             // 
-            this.button1.Location = new System.Drawing.Point(15, 378);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(167, 29);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.Price1.Location = new System.Drawing.Point(15, 378);
+            this.Price1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Price1.Name = "Price1";
+            this.Price1.Size = new System.Drawing.Size(167, 29);
+            this.Price1.TabIndex = 6;
+            this.Price1.Text = "10,000 KRW";
+            this.Price1.UseVisualStyleBackColor = true;
+            this.Price1.Click += new System.EventHandler(this.Price1_Click);
             // 
             // button2
             // 
@@ -453,20 +454,20 @@
             this.panel20.Size = new System.Drawing.Size(168, 256);
             this.panel20.TabIndex = 31;
             // 
-            // button21
+            // Login_button
             // 
-            this.button21.BackColor = System.Drawing.Color.White;
-            this.button21.FlatAppearance.BorderSize = 0;
-            this.button21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button21.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.button21.Location = new System.Drawing.Point(782, 15);
-            this.button21.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(119, 35);
-            this.button21.TabIndex = 41;
-            this.button21.Text = "Login";
-            this.button21.UseVisualStyleBackColor = false;
-            this.button21.Click += new System.EventHandler(this.Login_button_Click);
+            this.Login_button.BackColor = System.Drawing.Color.White;
+            this.Login_button.FlatAppearance.BorderSize = 0;
+            this.Login_button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Login_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.Login_button.Location = new System.Drawing.Point(782, 15);
+            this.Login_button.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Login_button.Name = "Login_button";
+            this.Login_button.Size = new System.Drawing.Size(119, 35);
+            this.Login_button.TabIndex = 41;
+            this.Login_button.Text = "Login";
+            this.Login_button.UseVisualStyleBackColor = false;
+            this.Login_button.Click += new System.EventHandler(this.Login_button_Click);
             // 
             // pictureBox1
             // 
@@ -486,7 +487,7 @@
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(929, 846);
-            this.Controls.Add(this.button21);
+            this.Controls.Add(this.Login_button);
             this.Controls.Add(this.button16);
             this.Controls.Add(this.button17);
             this.Controls.Add(this.button18);
@@ -521,7 +522,7 @@
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.Price1);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel3);
@@ -544,7 +545,6 @@
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
@@ -579,7 +579,8 @@
         private System.Windows.Forms.Panel panel18;
         private System.Windows.Forms.Panel panel19;
         private System.Windows.Forms.Panel panel20;
-        private System.Windows.Forms.Button button21;
+        public System.Windows.Forms.Button Login_button;
+        public System.Windows.Forms.Button Price1;
     }
 }
 
