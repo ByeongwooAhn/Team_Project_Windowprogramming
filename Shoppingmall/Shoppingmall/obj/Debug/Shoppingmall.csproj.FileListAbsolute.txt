@@ -21,3 +21,15 @@ C:\Users\GD-User2\Desktop\실장파일\파일\Git\Study\Window_Programming\Team_
 C:\Users\GD-User2\Desktop\실장파일\파일\Git\Study\Window_Programming\Team_Project_Windowprogramming\Shoppingmall\Shoppingmall\bin\Debug\Shoppingmall.exe.config
 C:\Users\GD-User2\Desktop\실장파일\파일\Git\Study\Window_Programming\Team_Project_Windowprogramming\Shoppingmall\Shoppingmall\bin\Debug\Shoppingmall.exe
 C:\Users\GD-User2\Desktop\실장파일\파일\Git\Study\Window_Programming\Team_Project_Windowprogramming\Shoppingmall\Shoppingmall\bin\Debug\Shoppingmall.pdb
+C:\Users\user\Desktop\독수리\대학 과제\윈도우프로그래밍\Team_Project\Shoppingmall\Shoppingmall\bin\Debug\Shoppingmall.exe.config
+C:\Users\user\Desktop\독수리\대학 과제\윈도우프로그래밍\Team_Project\Shoppingmall\Shoppingmall\bin\Debug\Shoppingmall.exe
+C:\Users\user\Desktop\독수리\대학 과제\윈도우프로그래밍\Team_Project\Shoppingmall\Shoppingmall\bin\Debug\Shoppingmall.pdb
+C:\Users\user\Desktop\독수리\대학 과제\윈도우프로그래밍\Team_Project\Shoppingmall\Shoppingmall\obj\Debug\Shoppingmall.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\독수리\대학 과제\윈도우프로그래밍\Team_Project\Shoppingmall\Shoppingmall\obj\Debug\Shoppingmall.csproj.SuggestedBindingRedirects.cache
+C:\Users\user\Desktop\독수리\대학 과제\윈도우프로그래밍\Team_Project\Shoppingmall\Shoppingmall\obj\Debug\Shoppingmall.Login.resources
+C:\Users\user\Desktop\독수리\대학 과제\윈도우프로그래밍\Team_Project\Shoppingmall\Shoppingmall\obj\Debug\Shoppingmall.Main.resources
+C:\Users\user\Desktop\독수리\대학 과제\윈도우프로그래밍\Team_Project\Shoppingmall\Shoppingmall\obj\Debug\Shoppingmall.Properties.Resources.resources
+C:\Users\user\Desktop\독수리\대학 과제\윈도우프로그래밍\Team_Project\Shoppingmall\Shoppingmall\obj\Debug\Shoppingmall.csproj.GenerateResource.cache
+C:\Users\user\Desktop\독수리\대학 과제\윈도우프로그래밍\Team_Project\Shoppingmall\Shoppingmall\obj\Debug\Shoppingmall.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\독수리\대학 과제\윈도우프로그래밍\Team_Project\Shoppingmall\Shoppingmall\obj\Debug\Shoppingmall.exe
+C:\Users\user\Desktop\독수리\대학 과제\윈도우프로그래밍\Team_Project\Shoppingmall\Shoppingmall\obj\Debug\Shoppingmall.pdb
