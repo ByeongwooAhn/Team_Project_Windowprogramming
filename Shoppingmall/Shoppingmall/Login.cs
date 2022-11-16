@@ -52,5 +52,13 @@ namespace Shoppingmall
                 Login_OK();
             }
         }
+
+        private void ID_KeyUp(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                Login_OK();
+            }
+        }
     }
 }

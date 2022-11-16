@@ -41,5 +41,14 @@ namespace Shoppingmall
                 pay.ShowDialog();
             }
         }
+
+        private void Right_Click(object sender, MouseEventArgs e)
+        {
+            if(e.Button == MouseButtons.Right)
+            {
+                Login login = new Login(this);
+                login.ShowDialog();
+            }
+        }
     }
 }
