@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -25,7 +26,7 @@ namespace Shoppingmall
             string userID = ID.Text;
             string userPW = PW.Text;
 
-            if (userID.Equals("1") && userPW.Equals("1"))
+            if (userID.Equals("WindowP") && userPW.Equals("1"))
             {
                 MessageBox.Show("로그인 되었습니다.", "로그인");
                 this.Close();
