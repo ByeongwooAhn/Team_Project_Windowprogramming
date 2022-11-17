@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
@@ -70,7 +71,11 @@
             this.panel20 = new System.Windows.Forms.Panel();
             this.Login_button = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.내정보ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.로그아웃ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -417,6 +422,7 @@
             // Login_button
             // 
             this.Login_button.BackColor = System.Drawing.Color.White;
+            this.Login_button.ContextMenuStrip = this.contextMenuStrip1;
             this.Login_button.FlatAppearance.BorderSize = 0;
             this.Login_button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Login_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
@@ -427,7 +433,7 @@
             this.Login_button.Text = "Login";
             this.Login_button.UseVisualStyleBackColor = false;
             this.Login_button.Click += new System.EventHandler(this.Login_button_Click);
-            this.Login_button.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Right_Click);
+            this.Login_button.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Login_button_MouseDown);
             // 
             // pictureBox1
             // 
@@ -439,6 +445,28 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.내정보ToolStripMenuItem,
+            this.로그아웃ToolStripMenuItem});
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(181, 70);
+            // 
+            // 내정보ToolStripMenuItem
+            // 
+            this.내정보ToolStripMenuItem.Name = "내정보ToolStripMenuItem";
+            this.내정보ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.내정보ToolStripMenuItem.Text = "내 정보";
+            this.내정보ToolStripMenuItem.Click += new System.EventHandler(this.내정보ToolStripMenuItem_Click);
+            // 
+            // 로그아웃ToolStripMenuItem
+            // 
+            this.로그아웃ToolStripMenuItem.Name = "로그아웃ToolStripMenuItem";
+            this.로그아웃ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.로그아웃ToolStripMenuItem.Text = "로그아웃";
+            this.로그아웃ToolStripMenuItem.Click += new System.EventHandler(this.로그아웃ToolStripMenuItem_Click);
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -446,6 +474,7 @@
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(813, 677);
+            this.ContextMenuStrip = this.contextMenuStrip1;
             this.Controls.Add(this.Login_button);
             this.Controls.Add(this.button16);
             this.Controls.Add(this.button17);
@@ -491,6 +520,7 @@
             this.Name = "Main";
             this.Text = "잇템_메인";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.contextMenuStrip1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -539,6 +569,9 @@
         private System.Windows.Forms.Panel panel20;
         public System.Windows.Forms.Button Login_button;
         public System.Windows.Forms.Button Price1;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem 내정보ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 로그아웃ToolStripMenuItem;
     }
 }
 

@@ -33,3 +33,27 @@ C:\Users\user\Desktop\독수리\대학 과제\윈도우프로그래밍\Team_Proj
 C:\Users\user\Desktop\독수리\대학 과제\윈도우프로그래밍\Team_Project\Shoppingmall\Shoppingmall\obj\Debug\Shoppingmall.csproj.CoreCompileInputs.cache
 C:\Users\user\Desktop\독수리\대학 과제\윈도우프로그래밍\Team_Project\Shoppingmall\Shoppingmall\obj\Debug\Shoppingmall.exe
 C:\Users\user\Desktop\독수리\대학 과제\윈도우프로그래밍\Team_Project\Shoppingmall\Shoppingmall\obj\Debug\Shoppingmall.pdb
+C:\Users\Administrator\Documents\WindowPrograming\Shoppingmall\Shoppingmall\obj\Debug\Shoppingmall.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\WindowPrograming\Shoppingmall\Shoppingmall\obj\Debug\Shoppingmall.csproj.SuggestedBindingRedirects.cache
+C:\Users\Administrator\Documents\WindowPrograming\Shoppingmall\Shoppingmall\obj\Debug\Shoppingmall.Login.resources
+C:\Users\Administrator\Documents\WindowPrograming\Shoppingmall\Shoppingmall\obj\Debug\Shoppingmall.Main.resources
+C:\Users\Administrator\Documents\WindowPrograming\Shoppingmall\Shoppingmall\obj\Debug\Shoppingmall.Properties.Resources.resources
+C:\Users\Administrator\Documents\WindowPrograming\Shoppingmall\Shoppingmall\obj\Debug\Shoppingmall.csproj.GenerateResource.cache
+C:\Users\Administrator\Documents\WindowPrograming\Shoppingmall\Shoppingmall\obj\Debug\Shoppingmall.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\WindowPrograming\Shoppingmall\Shoppingmall\obj\Debug\Shoppingmall.exe
+C:\Users\Administrator\Documents\WindowPrograming\Shoppingmall\Shoppingmall\obj\Debug\Shoppingmall.pdb
+C:\Users\Administrator\Documents\WindowPrograming\Shoppingmall\Shoppingmall\bin\Debug\Shoppingmall.exe.config
+C:\Users\Administrator\Documents\WindowPrograming\Shoppingmall\Shoppingmall\bin\Debug\Shoppingmall.exe
+C:\Users\Administrator\Documents\WindowPrograming\Shoppingmall\Shoppingmall\bin\Debug\Shoppingmall.pdb
+C:\Users\am608\OneDrive\바탕 화면\코딩\윈도우프로그래밍\Team_Project\Shoppingmall\Shoppingmall\bin\Debug\Shoppingmall.exe.config
+C:\Users\am608\OneDrive\바탕 화면\코딩\윈도우프로그래밍\Team_Project\Shoppingmall\Shoppingmall\bin\Debug\Shoppingmall.exe
+C:\Users\am608\OneDrive\바탕 화면\코딩\윈도우프로그래밍\Team_Project\Shoppingmall\Shoppingmall\bin\Debug\Shoppingmall.pdb
+C:\Users\am608\OneDrive\바탕 화면\코딩\윈도우프로그래밍\Team_Project\Shoppingmall\Shoppingmall\obj\Debug\Shoppingmall.csproj.AssemblyReference.cache
+C:\Users\am608\OneDrive\바탕 화면\코딩\윈도우프로그래밍\Team_Project\Shoppingmall\Shoppingmall\obj\Debug\Shoppingmall.csproj.SuggestedBindingRedirects.cache
+C:\Users\am608\OneDrive\바탕 화면\코딩\윈도우프로그래밍\Team_Project\Shoppingmall\Shoppingmall\obj\Debug\Shoppingmall.Login.resources
+C:\Users\am608\OneDrive\바탕 화면\코딩\윈도우프로그래밍\Team_Project\Shoppingmall\Shoppingmall\obj\Debug\Shoppingmall.Main.resources
+C:\Users\am608\OneDrive\바탕 화면\코딩\윈도우프로그래밍\Team_Project\Shoppingmall\Shoppingmall\obj\Debug\Shoppingmall.Properties.Resources.resources
+C:\Users\am608\OneDrive\바탕 화면\코딩\윈도우프로그래밍\Team_Project\Shoppingmall\Shoppingmall\obj\Debug\Shoppingmall.csproj.GenerateResource.cache
+C:\Users\am608\OneDrive\바탕 화면\코딩\윈도우프로그래밍\Team_Project\Shoppingmall\Shoppingmall\obj\Debug\Shoppingmall.csproj.CoreCompileInputs.cache
+C:\Users\am608\OneDrive\바탕 화면\코딩\윈도우프로그래밍\Team_Project\Shoppingmall\Shoppingmall\obj\Debug\Shoppingmall.exe
+C:\Users\am608\OneDrive\바탕 화면\코딩\윈도우프로그래밍\Team_Project\Shoppingmall\Shoppingmall\obj\Debug\Shoppingmall.pdb

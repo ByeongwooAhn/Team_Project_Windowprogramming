@@ -58,6 +58,12 @@
     <Compile Include="Main.Designer.cs">
       <DependentUpon>Main.cs</DependentUpon>
     </Compile>
+    <Compile Include="My_Profile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My_Profile.Designer.cs">
+      <DependentUpon>My_Profile.cs</DependentUpon>
+    </Compile>
     <Compile Include="Pay.cs">
       <SubType>Form</SubType>
     </Compile>
