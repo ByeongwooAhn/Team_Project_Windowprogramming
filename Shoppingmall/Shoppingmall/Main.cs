@@ -44,7 +44,7 @@ namespace Shoppingmall
 
         private void Right_Click(object sender, MouseEventArgs e)
         {
-            if(e.Button == MouseButtons.Right)
+            if(e.Button == System.Windows.Forms.MouseButtons.Right)
             {
                 Login login = new Login(this);
                 login.ShowDialog();
