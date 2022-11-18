@@ -113,9 +113,9 @@
             this.label2.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.label2.Location = new System.Drawing.Point(43, 458);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(98, 24);
+            this.label2.Size = new System.Drawing.Size(91, 24);
             this.label2.TabIndex = 6;
-            this.label2.Text = "Paswword";
+            this.label2.Text = "Password";
             // 
             // button1
             // 
