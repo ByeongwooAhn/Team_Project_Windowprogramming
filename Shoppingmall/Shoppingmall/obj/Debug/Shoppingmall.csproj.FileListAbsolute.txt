@@ -45,3 +45,16 @@ C:\Users\Administrator\Documents\WindowPrograming\Shoppingmall\Shoppingmall\obj\
 C:\Users\Administrator\Documents\WindowPrograming\Shoppingmall\Shoppingmall\bin\Debug\Shoppingmall.exe.config
 C:\Users\Administrator\Documents\WindowPrograming\Shoppingmall\Shoppingmall\bin\Debug\Shoppingmall.exe
 C:\Users\Administrator\Documents\WindowPrograming\Shoppingmall\Shoppingmall\bin\Debug\Shoppingmall.pdb
+C:\Users\rlagp\Documents\Team_Project_Windowprogramming\Shoppingmall\Shoppingmall\bin\Debug\Shoppingmall.exe.config
+C:\Users\rlagp\Documents\Team_Project_Windowprogramming\Shoppingmall\Shoppingmall\bin\Debug\Shoppingmall.exe
+C:\Users\rlagp\Documents\Team_Project_Windowprogramming\Shoppingmall\Shoppingmall\bin\Debug\Shoppingmall.pdb
+C:\Users\rlagp\Documents\Team_Project_Windowprogramming\Shoppingmall\Shoppingmall\obj\Debug\Shoppingmall.csproj.AssemblyReference.cache
+C:\Users\rlagp\Documents\Team_Project_Windowprogramming\Shoppingmall\Shoppingmall\obj\Debug\Shoppingmall.csproj.SuggestedBindingRedirects.cache
+C:\Users\rlagp\Documents\Team_Project_Windowprogramming\Shoppingmall\Shoppingmall\obj\Debug\Shoppingmall.Login.resources
+C:\Users\rlagp\Documents\Team_Project_Windowprogramming\Shoppingmall\Shoppingmall\obj\Debug\Shoppingmall.Main.resources
+C:\Users\rlagp\Documents\Team_Project_Windowprogramming\Shoppingmall\Shoppingmall\obj\Debug\Shoppingmall.Properties.Resources.resources
+C:\Users\rlagp\Documents\Team_Project_Windowprogramming\Shoppingmall\Shoppingmall\obj\Debug\Shoppingmall.csproj.GenerateResource.cache
+C:\Users\rlagp\Documents\Team_Project_Windowprogramming\Shoppingmall\Shoppingmall\obj\Debug\Shoppingmall.csproj.CoreCompileInputs.cache
+C:\Users\rlagp\Documents\Team_Project_Windowprogramming\Shoppingmall\Shoppingmall\obj\Debug\Shoppingmall.exe
+C:\Users\rlagp\Documents\Team_Project_Windowprogramming\Shoppingmall\Shoppingmall\obj\Debug\Shoppingmall.pdb
+C:\Users\rlagp\Documents\Team_Project_Windowprogramming\Shoppingmall\Shoppingmall\obj\Debug\Shoppingmall.g.resources
