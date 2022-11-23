@@ -23,25 +23,6 @@ namespace Shoppingmall
             login.ShowDialog();
         }
 
-     /*   private void Price1_Click(object sender, EventArgs e)
-        {
-            Pay pay = new Pay();
-
-            if (Login_button.Text == "Login")
-            {
-                DialogResult result = MessageBox.Show("현재 비회원 상태입니다.\n비회원으로 주문하시겠습니까?", "알림", MessageBoxButtons.YesNo);
-
-                if(result == DialogResult.Yes)
-                {
-                    pay.ShowDialog();
-                }
-            }
-            else
-            {
-                pay.ShowDialog();
-            }
-        }
-     */
         private void 내정보ToolStripMenuItem_Click(object sender, EventArgs e)
         {
             MessageBox.Show("내 정보");
@@ -52,12 +33,13 @@ namespace Shoppingmall
             DialogResult result = MessageBox.Show("로그아웃 하시겠습니까?", "알림", MessageBoxButtons.YesNo);
             if (result == DialogResult.Yes)
             {
-                MessageBox.Show("로그아웃되었습니다.");
-                Login_button.Text = "Login";
+                 MessageBox.Show("로그아웃되었습니다.");
+                 Login_button.Text = "Login";
             }
         }
 
-        private void label2_Click(object sender, EventArgs e)  //옷 가격 1
+        #region
+        private void label2_Click(object sender, EventArgs e)  //옷 가격
         {
             #region 
             Pay pay = new Pay();
@@ -78,7 +60,7 @@ namespace Shoppingmall
             #endregion
         }
 
-        private void pictureBox2_Click(object sender, EventArgs e)  //옷 사진1
+        private void pictureBox2_Click(object sender, EventArgs e)  //옷 사진
         {
             #region 
             Pay pay = new Pay();
@@ -498,7 +480,7 @@ namespace Shoppingmall
             #endregion
         }
 
-        private void label12_Click(object sender, EventArgs e)
+        private void label12_Click(object sender, EventArgs e) //옷 사진과 가격 끝
         {
             #region 
             Pay pay = new Pay();
@@ -518,5 +500,6 @@ namespace Shoppingmall
             }
             #endregion
         }
+        #endregion // 옷 사진 가격 클릭 결제 창
     }
 }

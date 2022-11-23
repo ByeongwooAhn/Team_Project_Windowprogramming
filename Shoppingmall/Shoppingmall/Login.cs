@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,13 +9,16 @@ using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using MySqlCommand = MySql.Data.MySqlClient.MySqlCommand;
+using MySqlConnection = MySql.Data.MySqlClient.MySqlConnection;
 
 namespace Shoppingmall
 {
     public partial class Login : Form
     {
         Main main;
-
+        string connstr = "Server = 127.0.0.1;Port=3306;Database=member;Uid=root;Pwd=root";
 
         public Login(Main M)
         {
@@ -22,34 +26,83 @@ namespace Shoppingmall
             main = M;
         }
 
-        private void Login_OK()
+        public DataSet Login_Search()
         {
-            string userID = ID.Text;
-            string userPW = PW.Text;
+            string sql = "select * from member_name where 아이디 = '" + ID.Text + "' and 비밀번호 = '" + PW.Text + "'";
+            DataSet ds = new DataSet();
 
-            if (userID.Equals("WindowP") && userPW.Equals("1"))
+            using (MySqlConnection conn = new MySqlConnection(connstr))
             {
-                MessageBox.Show("로그인 되었습니다.", "로그인");
-                this.Close();
-                main.Login_button.Text = userID;
+                try
+                {
+                    conn.Open();
+                    MySqlCommand cmd = new MySqlCommand(sql, conn);
+                    cmd.ExecuteNonQuery();
+                }
+                catch (Exception ex) { }
             }
 
-            else
+            using (MySqlConnection conn = new MySqlConnection(connstr))
             {
-                Login_Fail.Text = "아이디와 비밀번호를 확인해 주세요.";
+                try
+                {
+
+                    {
+                        conn.Open();
+                        MySqlDataAdapter da = new MySqlDataAdapter(sql, conn);
+                        da.Fill(ds);
+                    }
+
+                }
+                catch (Exception ex)
+                {
+
+                }
             }
+            return ds;
+        }
+
+        public void Login_Check(string ID, string PW)
+        {
+            DataSet ds;
+            ds = Login_Search();
+
+            using (MySqlConnection conn = new MySqlConnection(connstr))
+            {
+                try
+                {
+                    conn.Open();
+                    if (ds.Tables[0].Rows.Count > 0)
+                    {
+                        foreach (DataRow row in ds.Tables[0].Rows)
+                        {
+                            if (ID == row["아이디"].ToString() && PW == row["비밀번호"].ToString())
+                            {
+                                Close();
+                                main.Login_button.Text = ID;
+                            }
+                        }
+                    }
+                    else
+                    {
+                        Login_Result.Text = "아이디와 패스워드를 확인하여 주십시오.";
+                    }
+                }
+                catch (Exception ex) { }
+            }
+
         }
 
         private void Login_button_Click(object sender, EventArgs e)
         {
-            Login_OK();
+            Login_Check(ID.Text, PW.Text);
         }
 
         private void PW_KeyUp(object sender, KeyEventArgs e)
         {
             if(e.KeyCode == Keys.Enter)
             {
-                Login_OK();
+                Login_Check(ID.Text, PW.Text);
             }
         }
 
@@ -57,7 +110,7 @@ namespace Shoppingmall
         {
             if (e.KeyCode == Keys.Enter)
             {
-                Login_OK();
+                Login_Check(ID.Text, PW.Text);
             }
         }
     }
