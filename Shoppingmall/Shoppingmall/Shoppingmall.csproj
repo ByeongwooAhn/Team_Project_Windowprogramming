@@ -58,12 +58,6 @@
     <Compile Include="Main.Designer.cs">
       <DependentUpon>Main.cs</DependentUpon>
     </Compile>
-    <Compile Include="My_Profile.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="My_Profile.Designer.cs">
-      <DependentUpon>My_Profile.cs</DependentUpon>
-    </Compile>
     <Compile Include="Pay.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -109,6 +103,42 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\제목 없는 디자인.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\woman-3564548_1920.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\화면 캡처 2022-11-16 152033.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\화면 캡처 2022-11-16 153433.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t-shirt-1278404_1280.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t-shirt-2068353_1920.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t-shirt-2420558_1920.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leather-3721996_1920.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shirt-6102976_1920.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shoes-2354910_1920.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shorts-5255265_1920.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trousers-2685231_1920.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t-shirt-2423785_1920.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -63,9 +63,109 @@ namespace Shoppingmall.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
         /// </summary>
+        internal static System.Drawing.Bitmap leather_3721996_1920 {
+            get {
+                object obj = ResourceManager.GetObject("leather_3721996_1920", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap shirt_6102976_1920 {
+            get {
+                object obj = ResourceManager.GetObject("shirt_6102976_1920", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap shoes_2354910_1920 {
+            get {
+                object obj = ResourceManager.GetObject("shoes_2354910_1920", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
         internal static System.Drawing.Bitmap Shopping_Mall {
             get {
                 object obj = ResourceManager.GetObject("Shopping Mall", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap shorts_5255265_1920 {
+            get {
+                object obj = ResourceManager.GetObject("shorts_5255265_1920", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap t_shirt_1278404_1280 {
+            get {
+                object obj = ResourceManager.GetObject("t_shirt_1278404_1280", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap t_shirt_2068353_1920 {
+            get {
+                object obj = ResourceManager.GetObject("t_shirt_2068353_1920", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap t_shirt_2420558_1920 {
+            get {
+                object obj = ResourceManager.GetObject("t_shirt_2420558_1920", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap t_shirt_2423785_1920 {
+            get {
+                object obj = ResourceManager.GetObject("t_shirt_2423785_1920", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap trousers_2685231_1920 {
+            get {
+                object obj = ResourceManager.GetObject("trousers_2685231_1920", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap woman_3564548_1920 {
+            get {
+                object obj = ResourceManager.GetObject("woman_3564548_1920", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -86,6 +186,26 @@ namespace Shoppingmall.Properties {
         internal static System.Drawing.Bitmap 제목_없는_디자인 {
             get {
                 object obj = ResourceManager.GetObject("제목 없는 디자인", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap 화면_캡처_2022_11_16_152033 {
+            get {
+                object obj = ResourceManager.GetObject("화면_캡처_2022_11_16_152033", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap 화면_캡처_2022_11_16_153433 {
+            get {
+                object obj = ResourceManager.GetObject("화면_캡처_2022_11_16_153433", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
