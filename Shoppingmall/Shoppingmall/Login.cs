@@ -113,5 +113,15 @@ namespace Shoppingmall
                 Login_Check(ID.Text, PW.Text);
             }
         }
+
+        private void Tab_Login_Click(object sender, EventArgs e)
+        {
+            Not_Tab.Visible = false;
+        }
+
+        private void Tab_Not_Click(object sender, EventArgs e)
+        {
+            Not_Tab.Visible = true;
+        }
     }
 }
