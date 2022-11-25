@@ -23,9 +23,8 @@ namespace Shoppingmall
             login.ShowDialog();
         }
 
-<<<<<<< HEAD
-=======
-     /*   private void Price1_Click(object sender, EventArgs e)
+
+       private void Price1_Click(object sender, EventArgs e)
         {
             Pay pay = new Pay();
 
@@ -43,17 +42,11 @@ namespace Shoppingmall
                 pay.ShowDialog();
             }
         }
-<<<<<<< HEAD
 
         private void Login_button_MouseDown(object sender, MouseEventArgs e)
         {
 
         }
-
-=======
-     */
->>>>>>> afb41b3e4d2a3129ddf806e5729bbfea30669707
->>>>>>> origin/main
         private void 내정보ToolStripMenuItem_Click(object sender, EventArgs e)
         {
             MessageBox.Show("내 정보");
