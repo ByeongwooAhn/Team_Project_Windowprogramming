@@ -59,3 +59,6 @@ C:\Users\rlagp\Documents\Team_Project_Windowprogramming\Shoppingmall\Shoppingmal
 C:\Users\rlagp\Documents\Team_Project_Windowprogramming\Shoppingmall\Shoppingmall\obj\Debug\Shoppingmall.pdb
 C:\Users\rlagp\Documents\Team_Project_Windowprogramming\Shoppingmall\Shoppingmall\obj\Debug\Shoppingmall.g.resources
 C:\Users\rlagp\Documents\Team_Project_Windowprogramming\Shoppingmall\Shoppingmall\obj\Debug\Shoppingmall.Pay.resources
+C:\Users\rlagp\Documents\Team_Project_Windowprogramming\Shoppingmall\Shoppingmall\obj\Debug\Shoppingmall.Card.resources
+C:\Users\rlagp\Documents\Team_Project_Windowprogramming\Shoppingmall\Shoppingmall\obj\Debug\Shoppingmall.Product_infor.resources
+C:\Users\rlagp\Documents\Team_Project_Windowprogramming\Shoppingmall\Shoppingmall\obj\Debug\Shoppingmall.Join_us.resources

@@ -60,5 +60,21 @@ namespace Shoppingmall
                 Login_OK();
             }
         }
+
+        private void button2_Click(object sender, EventArgs e) //로그인
+        {
+            Login_tab.Visible = true;
+        }
+
+        private void button3_Click(object sender, EventArgs e) //비회원
+        {
+            Login_tab.Visible = false;
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Join_us _Form = new Join_us();
+            _Form.Show();
+        }
     }
 }
