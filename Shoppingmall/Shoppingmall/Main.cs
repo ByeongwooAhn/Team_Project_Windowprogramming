@@ -20,33 +20,9 @@ namespace Shoppingmall
         private void Login_button_Click(object sender, EventArgs e)
         {
             Login login = new Login(this);
-            login.ShowDialog();
+            login.Show();
         }
 
-
-       private void Price1_Click(object sender, EventArgs e)
-        {
-            Pay pay = new Pay();
-
-            if (Login_button.Text == "Login")
-            {
-                DialogResult result = MessageBox.Show("현재 비회원 상태입니다.\n비회원으로 주문하시겠습니까?", "알림", MessageBoxButtons.YesNo);
-
-                if(result == DialogResult.Yes)
-                {
-                    pay.ShowDialog();
-                }
-            }
-            else
-            {
-                pay.ShowDialog();
-            }
-        }
-
-        private void Login_button_MouseDown(object sender, MouseEventArgs e)
-        {
-
-        }
         private void 내정보ToolStripMenuItem_Click(object sender, EventArgs e)
         {
             MessageBox.Show("내 정보");
@@ -74,12 +50,15 @@ namespace Shoppingmall
 
                 if (result == DialogResult.Yes)
                 {
-                    pay.ShowDialog();
+                    Product_infor _Infor = new Product_infor();
+                    _Infor.label1.Text = label2.Text;
+                    _Infor.pictureBox1.Image = pictureBox2.Image;
+                    _Infor.Show();
                 }
             }
             else
             {
-                pay.ShowDialog();
+                Close(); 
             }
             #endregion
         }
@@ -95,12 +74,15 @@ namespace Shoppingmall
 
                 if (result == DialogResult.Yes)
                 {
-                    pay.ShowDialog();
+                    Product_infor _Infor = new Product_infor();
+                    _Infor.label1.Text = label2.Text;
+                    _Infor.pictureBox1.Image = pictureBox2.Image;
+                    _Infor.Show();
                 }
             }
             else
             {
-                pay.ShowDialog();
+                Close();
             }
             #endregion
         }
@@ -116,12 +98,15 @@ namespace Shoppingmall
 
                 if (result == DialogResult.Yes)
                 {
-                    pay.ShowDialog();
+                    Product_infor _Infor = new Product_infor();
+                    _Infor.label1.Text = label3.Text;
+                    _Infor.pictureBox1.Image = pictureBox13.Image;
+                    _Infor.Show();
                 }
             }
             else
             {
-                pay.ShowDialog();
+                Close();
             }
             #endregion
         }
@@ -137,12 +122,15 @@ namespace Shoppingmall
 
                 if (result == DialogResult.Yes)
                 {
-                    pay.ShowDialog();
+                    Product_infor _Infor = new Product_infor();
+                    _Infor.label1.Text = label3.Text;
+                    _Infor.pictureBox1.Image = pictureBox13.Image;
+                    _Infor.Show();
                 }
             }
             else
             {
-                pay.ShowDialog();
+                Close();
             }
             #endregion
         }
@@ -158,12 +146,15 @@ namespace Shoppingmall
 
                 if (result == DialogResult.Yes)
                 {
-                    pay.ShowDialog();
+                    Product_infor _Infor = new Product_infor();
+                    _Infor.label1.Text = label4.Text;
+                    _Infor.pictureBox1.Image = pictureBox7.Image;
+                    _Infor.Show();
                 }
             }
             else
             {
-                pay.ShowDialog();
+                Close();
             }
             #endregion
         }
@@ -179,12 +170,15 @@ namespace Shoppingmall
 
                 if (result == DialogResult.Yes)
                 {
-                    pay.ShowDialog();
+                    Product_infor _Infor = new Product_infor();
+                    _Infor.label1.Text = label4.Text;
+                    _Infor.pictureBox1.Image = pictureBox7.Image;
+                    _Infor.Show();
                 }
             }
             else
             {
-                pay.ShowDialog();
+                Close();
             }
             #endregion
         }
@@ -200,12 +194,15 @@ namespace Shoppingmall
 
                 if (result == DialogResult.Yes)
                 {
-                    pay.ShowDialog();
+                    Product_infor _Infor = new Product_infor();
+                    _Infor.label1.Text = label5.Text;
+                    _Infor.pictureBox1.Image = pictureBox5.Image;
+                    _Infor.Show();
                 }
             }
             else
             {
-                pay.ShowDialog();
+                Close();
             }
             #endregion
         }
@@ -221,12 +218,15 @@ namespace Shoppingmall
 
                 if (result == DialogResult.Yes)
                 {
-                    pay.ShowDialog();
+                    Product_infor _Infor = new Product_infor();
+                    _Infor.label1.Text = label5.Text;
+                    _Infor.pictureBox1.Image = pictureBox5.Image;
+                    _Infor.Show();
                 }
             }
             else
             {
-                pay.ShowDialog();
+                Close();
             }
             #endregion
         }
@@ -242,12 +242,15 @@ namespace Shoppingmall
 
                 if (result == DialogResult.Yes)
                 {
-                    pay.ShowDialog();
+                    Product_infor _Infor = new Product_infor();
+                    _Infor.label1.Text = label6.Text;
+                    _Infor.pictureBox1.Image = pictureBox12.Image;
+                    _Infor.Show();
                 }
             }
             else
             {
-                pay.ShowDialog();
+                Close();
             }
             #endregion
         }
@@ -263,12 +266,15 @@ namespace Shoppingmall
 
                 if (result == DialogResult.Yes)
                 {
-                    pay.ShowDialog();
+                    Product_infor _Infor = new Product_infor();
+                    _Infor.label1.Text = label6.Text;
+                    _Infor.pictureBox1.Image = pictureBox12.Image;
+                    _Infor.Show();
                 }
             }
             else
             {
-                pay.ShowDialog();
+                Close();
             }
             #endregion
         }
@@ -284,12 +290,15 @@ namespace Shoppingmall
 
                 if (result == DialogResult.Yes)
                 {
-                    pay.ShowDialog();
+                    Product_infor _Infor = new Product_infor();
+                    _Infor.label1.Text = label7.Text;
+                    _Infor.pictureBox1.Image = pictureBox8.Image;
+                    _Infor.Show();
                 }
             }
             else
             {
-                pay.ShowDialog();
+                Close();
             }
             #endregion
         }
@@ -305,12 +314,15 @@ namespace Shoppingmall
 
                 if (result == DialogResult.Yes)
                 {
-                    pay.ShowDialog();
+                    Product_infor _Infor = new Product_infor();
+                    _Infor.label1.Text = label7.Text;
+                    _Infor.pictureBox1.Image = pictureBox8.Image;
+                    _Infor.Show();
                 }
             }
             else
             {
-                pay.ShowDialog();
+                Close();
             }
             #endregion
         }
@@ -326,12 +338,15 @@ namespace Shoppingmall
 
                 if (result == DialogResult.Yes)
                 {
-                    pay.ShowDialog();
+                    Product_infor _Infor = new Product_infor();
+                    _Infor.label1.Text = label8.Text;
+                    _Infor.pictureBox1.Image = pictureBox6.Image;
+                    _Infor.Show();
                 }
             }
             else
             {
-                pay.ShowDialog();
+                Close();
             }
             #endregion
         }
@@ -347,12 +362,15 @@ namespace Shoppingmall
 
                 if (result == DialogResult.Yes)
                 {
-                    pay.ShowDialog();
+                    Product_infor _Infor = new Product_infor();
+                    _Infor.label1.Text = label8.Text;
+                    _Infor.pictureBox1.Image = pictureBox6.Image;
+                    _Infor.Show();
                 }
             }
             else
             {
-                pay.ShowDialog();
+                Close();
             }
             #endregion
         }
@@ -368,12 +386,15 @@ namespace Shoppingmall
 
                 if (result == DialogResult.Yes)
                 {
-                    pay.ShowDialog();
+                    Product_infor _Infor = new Product_infor();
+                    _Infor.label1.Text = label9.Text;
+                    _Infor.pictureBox1.Image = pictureBox9.Image;
+                    _Infor.Show();
                 }
             }
             else
             {
-                pay.ShowDialog();
+                Close();
             }
             #endregion
         }
@@ -389,12 +410,15 @@ namespace Shoppingmall
 
                 if (result == DialogResult.Yes)
                 {
-                    pay.ShowDialog();
+                    Product_infor _Infor = new Product_infor();
+                    _Infor.label1.Text = label9.Text;
+                    _Infor.pictureBox1.Image = pictureBox9.Image;
+                    _Infor.Show();
                 }
             }
             else
             {
-                pay.ShowDialog();
+                Close();
             }
             #endregion
         }
@@ -410,12 +434,15 @@ namespace Shoppingmall
 
                 if (result == DialogResult.Yes)
                 {
-                    pay.ShowDialog();
+                    Product_infor _Infor = new Product_infor();
+                    _Infor.label1.Text = label10.Text;
+                    _Infor.pictureBox1.Image = pictureBox10.Image;
+                    _Infor.Show();
                 }
             }
             else
             {
-                pay.ShowDialog();
+                Close();
             }
             #endregion
         }
@@ -431,12 +458,15 @@ namespace Shoppingmall
 
                 if (result == DialogResult.Yes)
                 {
-                    pay.ShowDialog();
+                    Product_infor _Infor = new Product_infor();
+                    _Infor.label1.Text = label10.Text;
+                    _Infor.pictureBox1.Image = pictureBox10.Image;
+                    _Infor.Show();
                 }
             }
             else
             {
-                pay.ShowDialog();
+                Close();
             }
             #endregion
         }
@@ -452,12 +482,15 @@ namespace Shoppingmall
 
                 if (result == DialogResult.Yes)
                 {
-                    pay.ShowDialog();
+                    Product_infor _Infor = new Product_infor();
+                    _Infor.label1.Text = label11.Text;
+                    _Infor.pictureBox1.Image = pictureBox3.Image;
+                    _Infor.Show();
                 }
             }
             else
             {
-                pay.ShowDialog();
+                Close();
             }
             #endregion
         }
@@ -473,12 +506,15 @@ namespace Shoppingmall
 
                 if (result == DialogResult.Yes)
                 {
-                    pay.ShowDialog();
+                    Product_infor _Infor = new Product_infor();
+                    _Infor.label1.Text = label11.Text;
+                    _Infor.pictureBox1.Image = pictureBox3.Image;
+                    _Infor.Show();
                 }
             }
             else
             {
-                pay.ShowDialog();
+                Close();
             }
             #endregion
         }
@@ -494,12 +530,15 @@ namespace Shoppingmall
 
                 if (result == DialogResult.Yes)
                 {
-                    pay.ShowDialog();
+                    Product_infor _Infor = new Product_infor();
+                    _Infor.label1.Text = label12.Text;
+                    _Infor.pictureBox1.Image = pictureBox4.Image;
+                    _Infor.Show();
                 }
             }
             else
             {
-                pay.ShowDialog();
+                Close();
             }
             #endregion
         }
@@ -515,12 +554,15 @@ namespace Shoppingmall
 
                 if (result == DialogResult.Yes)
                 {
-                    pay.ShowDialog();
+                    Product_infor _Infor = new Product_infor();
+                    _Infor.label1.Text = label12.Text;
+                    _Infor.pictureBox1.Image = pictureBox4.Image;
+                    _Infor.Show();
                 }
             }
             else
             {
-                pay.ShowDialog();
+                Close();
             }
             #endregion
         }
